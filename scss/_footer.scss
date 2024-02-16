@@ -1,0 +1,27 @@
+.footer-wrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  background-color: #edff7e;
+  border-top: 1px solid rgb(212, 203, 255);
+}
+
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__copyright {
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 18px;
+  // letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer__socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}

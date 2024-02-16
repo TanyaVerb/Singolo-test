@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <div class="container nav-content-wrapper">
+        <!-- <div class="nav__row"> -->
+        <!-- <a href="#!" class="logo">SINGOLO <span>*</span></a> -->
+        <div class="nav__logo">SINGOLO <span>*</span></div>
+        <div class="nav__navigation">
+          <ul class="nav__list">
+            <li class="nav__list-item">
+              <a href="#" class="link nav__list-item-link">HOME</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" class="link nav__list-item-link"> SERVICES</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" class="link nav__list-item-link">PORTFOLIO</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" class="link nav__list-item-link">ABOUT</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" class="link nav__list-item-link">CONTACT</a>
+            </li>
+          </ul>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+    <div class="container wrapper">
+      <div class="slider">
+        <div class="slider__nav">
+          <label for="s1" class="slider__nav-item">
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20 26.56L11.3067 17.8667C10.28 16.84 10.28 15.16 11.3067 14.1333L20 5.44"
+                stroke="#EDFF7E"
+                stroke-width="4"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </label>
+          <label for="s2" class="slider__nav-item">
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.88 26.56L20.5733 17.8667C21.6 16.84 21.6 15.16 20.5733 14.1333L11.88 5.44"
+                stroke="#EDFF7E"
+                stroke-width="4"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </label>
+        </div>
+
+        <div class="slider__item">
+          <input type="radio" name="s" id="s1" />
+          <input type="radio" name="s" id="s2" />
+
+          <div class="slide slider__slide-1 s1">
+            <img
+              class="slider__tel-left img"
+              src="assets/img/phone-vertical.svg"
+              alt="phone-vertical"
+            />
+
+            <img
+              class="slider__tel-right img"
+              src="assets/img/phone-horizontal.svg"
+              alt="phone-horizontal"
+            />
+          </div>
+
+          <div class="slide slider__slide-2">
+            <img
+              class="slider__tel-1 img"
+              src="assets/img/slider-tel-left.svg"
+              alt="phone-left"
+            />
+            <img
+              class="slider__tel-center img"
+              src="assets/img/slider-content.svg"
+              alt="phone-center"
+            />
+            <img
+              class="slider__tel-2 img"
+              src="assets/img/slider-tel-right.svg"
+              alt="phone-right"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="servicesAnchor" class="services">
+      <div class="container services-wrapper">
+        <h2 class="title services__title">Our Services</h2>
+        <p class="services__text">
+          Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
+          Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget
+          lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
+          tortor mauris condimentum nibh.
+        </p>
+
+        <div class="services__list">
+          <div class="card services__card">
+            <div class="card__image-container">
+              <img class="card__image" src="./assets/img/1.svg" alt="icon" />
+            </div>
+            <div class="card__content">
+              <h3 class="card__title">Custom Design</h3>
+              <p class="card__text">
+                Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam
+                laoreet, viverra lacus ut, ultrices velit.
+              </p>
+            </div>
+          </div>
+
+          <div class="card services__card">
+            <div class="card__image-container">
+              <img class="card__image" src="./assets/img/2.svg" alt="icon" />
+            </div>
+            <div class="card__content">
+              <h3 class="card__title">Inovative Ideas</h3>
+              <p class="card__text">
+                Quisque luctus, quam eget molestie commodo, lacus purus cursus
+                purus, nec rutrum tellus dolor id lorem.
+              </p>
+            </div>
+          </div>
+          <div class="card services__card">
+            <div class="card__image-container">
+              <img class="card__image" src="./assets/img/3.svg" alt="icon" />
+            </div>
+            <div class="card__content">
+              <h3 class="card__title">Love Is The Answer</h3>
+              <p class="card__text">
+                Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet
+                turpis, et consequat felis. Quisque condimentum.
+              </p>
+            </div>
+          </div>
+          <div class="card services__card">
+            <div class="card__image-container">
+              <img class="card__image" src="./assets/img/4.svg" alt="icon" />
+            </div>
+            <div class="card__content">
+              <h3 class="card__title">Responsive Layout</h3>
+              <p class="card__text">
+                Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas
+                blandit nunc ligula. Praesent elit leo.
+              </p>
+            </div>
+          </div>
+          <div class="card services__card">
+            <div class="card__image-container">
+              <img class="card__image" src="./assets/img/5.svg" alt="icon" />
+            </div>
+            <div class="card__content">
+              <h3 class="card__title">24 / 7 Support</h3>
+              <p class="card__text">
+                Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi.
+                Nulla a sem erat. Pellentesque egestas venenatis lorem .
+              </p>
+            </div>
+          </div>
+          <div class="card services__card">
+            <div class="card__image-container">
+              <img class="card__image" src="./assets/img/5.svg" alt="icon" />
+            </div>
+            <div class="card__content">
+              <h3 class="card__title">24 / 7 Support</h3>
+              <p class="card__text">
+                Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi.
+                Nulla a sem erat. Pellentesque egestas venenatis lorem .
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolioAnchor" class="portfolio">
+      <div class="container portfolio-wrapper">
+        <div class="portfolio__content">
+          <h2 class="title portfolio__title">Portfolio</h2>
+          <p class="portfolio__text">
+            Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
+            eget lacinia odio sem nec elit.
+          </p>
+          <div class="portfolio__tags">
+            <a href="#!" class="tag portfolio__tag">All</a>
+            <a href="#!" class="tag portfolio__tag">Web Design</a>
+            <a href="#!" class="tag portfolio__tag">Graphic Design</a>
+            <a href="#!" class="tag portfolio__tag">Artwork</a>
+          </div>
+        </div>
+
+        <div class="portfolio__items block-img">
+          <div class="portfolio__item">
+            <img src="./assets/img/portfolio-1.jpg" alt="" />
+          </div>
+          <div class="portfolio__item">
+            <img src="./assets/img/portfolio-2.jpg" alt="" />
+          </div>
+          <div class="portfolio__item">
+            <img src="./assets/img/portfolio-3.jpg" alt="" />
+          </div>
+          <div class="portfolio__item">
+            <img src="./assets/img/portfolio-4.jpg" alt="" />
+          </div>
+          <div class="portfolio__item">
+            <img src="./assets/img/portfolio-5.jpg" alt="" />
+          </div>
+          <div class="portfolio__item">
+            <img src="./assets/img/portfolio-6.jpg" alt="" />
+          </div>
+          <div class="portfolio__item">
+            <img src="./assets/img/portfolio-7.jpg" alt="" />
+          </div>
+          <div class="portfolio__item">
+            <img src="./assets/img/portfolio-8.jpg" alt="" />
+          </div>
+          <div class="portfolio__item">
+            <img src="./assets/img/portfolio-9.jpg" alt="" />
+          </div>
+          <div class="portfolio__item">
+            <img src="./assets/img/portfolio-10.jpg" alt="" />
+          </div>
+          <div class="portfolio__item">
+            <img src="./assets/img/portfolio-11.jpg" alt="" />
+          </div>
+          <div class="portfolio__item">
+            <img src="./assets/img/portfolio-12.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footerAnchor" class="footer">
+      <div class="container footer-wrapper">
+        <div class="footer__row">
+          <div class="footer__copyright">© Copyright 2013</div>
+          <div class="footer__socials">
+            <a href="#!" class="social-icon"
+              ><img src="./assets/img/ico-facebook.svg" alt="facebook" />
+            </a>
+            <a href="#!" class="social-icon"
+              ><img src="./assets/img/ico-google-plus.svg" alt="google"
+            /></a>
+            <a href="#!" class="social-icon"
+              ><img src="./assets/img/ico-twitter.svg" alt="twitter"
+            /></a>
+            <a href="#!" class="social-icon"
+              ><img src="./assets/img/ico-linkedin.svg" alt="linkedin"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
